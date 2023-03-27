@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'breaking-bad';
+    font-style: normal;
+    font-weight:normal;
+    src: local('breaking-bad'),
+    url('breaking-bad.woff') format('woff');   
+}
+h1 {
+    color: blue;
+    background-color: #5897aa;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold; 
+}
+h2{
+    background-image: url(breaking-bad.jpg);
+    background-size: 100%;
+    color: aliceblue;
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    font-family: 'breaking-bad';
+    font-size: 50px;
+}
+div{
+    width: 15%;
+}
+dd {
+    background-color: aqua;
+    color:blueviolet;
+    width: 200px;
+}
